@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Billiard_Physics2D_Model/src"/>
+	<classpathentry kind="src" path="BallIconDrawer/src"/>
+	<classpathentry kind="src" path="Billiard_Renderer3D/src"/>
+	<classpathentry kind="src" path="Billiard3D/src"/>
+	<classpathentry kind="lib" path="Billiard_Physics2D_Model/dist/Billiard_Physics2D_Model.jar"/>
+	<classpathentry kind="lib" path="Billiard_Renderer3D/dist/Billiard_Renderer3D.jar"/>
+	<classpathentry kind="lib" path="Billiard3D/dist/Billiard3D.jar"/>
+	<classpathentry kind="lib" path="Billiard3D/dist/lib/Billiard_Physics2D_Model.jar"/>
+	<classpathentry kind="lib" path="Billiard3D/dist/lib/Billiard_Renderer3D.jar"/>
+	<classpathentry kind="lib" path="Billiard3D/store/Billiard3D.jar"/>
+	<classpathentry kind="output" path="BallIconDrawer/build/classes"/>
+</classpath>
