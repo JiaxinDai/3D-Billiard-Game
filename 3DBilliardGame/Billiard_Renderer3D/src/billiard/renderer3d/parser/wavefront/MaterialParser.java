@@ -20,7 +20,6 @@ public class MaterialParser {
             BufferedReader br = new BufferedReader(new InputStreamReader(MaterialParser.class.getResourceAsStream(resourcePath + resource)));
             String line = null;
             while ((line = br.readLine()) != null) {
-                //System.out.println(line);
                 if (line.startsWith("newmtl ")) {
                     extractMaterial(br, line);
                 }

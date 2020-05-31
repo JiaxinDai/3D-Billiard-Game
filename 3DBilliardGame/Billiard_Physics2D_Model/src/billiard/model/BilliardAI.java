@@ -58,7 +58,6 @@ public class BilliardAI extends BilliardGameModel {
                 error = 0;
                 break;
         }
-        //System.out.println(error);
         if (ret != null) {
             ret = ret + error * Math.toRadians(0.1);
         }
@@ -109,7 +108,6 @@ public class BilliardAI extends BilliardGameModel {
                         case BREAK:
                         case OPEN:
                             if (!turnPocketedBalls.isEmpty() && !isBallPocketedThisTurn(16) && !isBallPocketedThisTurn(8)) {
-                                //System.out.println("AI pocketed ball = " + turnPocketedBalls.get(0).getId() + " model=" + physics2D);
                                 resultAngle = arad;
                                 processing = false;
                                 return;
@@ -143,9 +141,6 @@ public class BilliardAI extends BilliardGameModel {
     }
     
     private void resetInitialState() {
-        //System.out.println(gameModel.balls);
-        //System.out.println(balls);
-        
         whiteBall.set(gameModel.whiteBall);
         for (BallModel ballModel : gameModel.balls) {
             int id = ballModel.getId();

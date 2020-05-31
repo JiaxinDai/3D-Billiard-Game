@@ -26,10 +26,6 @@ public class Vec2 {
     public void set(double x, double y) {
         this.x = x;
         this.y = y;
-        
-        if (Double.isNaN(x) || Double.isNaN(y)) {
-            System.out.println("");
-        }
     }
 
     public double getX() {
@@ -38,9 +34,6 @@ public class Vec2 {
 
     public void setX(double x) {
         this.x = x;
-        if (Double.isNaN(x) || Double.isNaN(y)) {
-            System.out.println("");
-        }
     }
 
     public double getY() {
@@ -49,9 +42,6 @@ public class Vec2 {
 
     public void setY(double y) {
         this.y = y;
-        if (Double.isNaN(x) || Double.isNaN(y)) {
-            System.out.println("");
-        }
     }
 
     public void scale(double d) {
