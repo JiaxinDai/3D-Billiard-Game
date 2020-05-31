@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import billiard.model.BallModel;
 
 /**
  * Eight Ball AI class.

@@ -1,7 +1,6 @@
 package billiard.model;
 
 import billiard.model.BallModel;
-import billiard.model.PoolTableModel;
 import billiard.physics2d.Circle;
 import billiard.physics2d.RigidBody;
 

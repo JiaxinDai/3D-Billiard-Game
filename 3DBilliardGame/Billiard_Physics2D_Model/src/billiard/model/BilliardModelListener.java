@@ -1,6 +1,5 @@
 package billiard.model;
 
-import billiard.model.BallModel;
 import billiard.model.BilliardGameModel.State;
 
 /**

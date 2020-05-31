@@ -6,8 +6,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import billiard.model.BallModel;
-import billiard.model.PoolTableModel;
 import billiard.physics2d.Circle;
 import billiard.physics2d.CollisionDetection;
 import billiard.physics2d.Contact;

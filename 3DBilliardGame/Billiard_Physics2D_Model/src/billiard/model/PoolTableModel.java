@@ -2,7 +2,6 @@ package billiard.model;
 
 import java.awt.Rectangle;
 
-import billiard.model.TableWallModel;
 import billiard.physics2d.Physics2D;
 
 /**
